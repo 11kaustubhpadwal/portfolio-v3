@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  background-color: #0f0f0f;
-  padding: 2rem;
+  background-color: #1d1d1d;
+  color: #fff;
 }
 
 * {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
