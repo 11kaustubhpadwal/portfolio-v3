@@ -12,11 +12,16 @@ const CV = () => {
     <>
       <Grid container padding="5rem" alignItems={"center"} id="cv">
         <Grid item sm>
-          <Typography fontWeight={700} fontSize={80} lineHeight={1.2}>
+          <Typography
+            fontWeight={700}
+            fontSize={80}
+            lineHeight={1.2}
+            className="animate__animated animate__fadeInDown navbar"
+          >
             Curriculum Vitae
           </Typography>
         </Grid>
-        <Grid item>
+        <Grid item className="animate__animated animate__fadeInDown navbar">
           <a
             href="https://www.linkedin.com/in/kaustubh-padwal-876495179/"
             target="_blank"
@@ -30,7 +35,11 @@ const CV = () => {
           </a>
         </Grid>
       </Grid>
-      <Grid container padding="0 5rem 0">
+      <Grid
+        container
+        padding="0 5rem 0"
+        className="animate__animated animate__fadeInDown navbar"
+      >
         <Grid item sm={6}>
           <Typography fontWeight={700} fontSize={40} mb={6}>
             Work Experience
@@ -57,10 +66,22 @@ const CV = () => {
           />
         </Grid>
       </Grid>
-      <Typography fontWeight={700} fontSize={40} mb={6} mt={8} padding="0 5rem">
+      <Typography
+        fontWeight={700}
+        fontSize={40}
+        mb={6}
+        mt={8}
+        padding="0 5rem"
+        className="animate__animated animate__fadeInDown navbar"
+      >
         Skills
       </Typography>
-      <Grid container padding="0 5rem 5rem" spacing="5rem">
+      <Grid
+        container
+        padding="0 5rem 5rem"
+        spacing="5rem"
+        className="animate__animated animate__fadeInDown navbar"
+      >
         <Grid item>
           <Typography fontWeight={500} fontSize={25} mb={1}>
             Frontend

@@ -3,7 +3,13 @@ import NavItem from "./NavItem";
 
 const Navbar = () => {
   return (
-    <Grid container spacing={"3rem"} alignItems="center" mb={16}>
+    <Grid
+      container
+      spacing={"3rem"}
+      alignItems="center"
+      mb={16}
+      className="animate__animated animate__fadeInDown navbar"
+    >
       <Grid item sm>
         <Typography fontWeight={600} fontSize={30}>
           Kaustubh

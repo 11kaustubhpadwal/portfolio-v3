@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import "animate.css";
 
 import TagLine from "./components/TagLine";
 import Navbar from "./components/Navbar";

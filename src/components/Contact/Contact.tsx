@@ -5,10 +5,21 @@ import ContactItem from "./ContactItem";
 const Contact = () => {
   return (
     <>
-      <Typography fontWeight={700} fontSize={80} padding="5rem" id="contact">
+      <Typography
+        fontWeight={700}
+        fontSize={80}
+        padding="5rem"
+        id="contact"
+        className="animate__animated animate__fadeInDown navbar"
+      >
         Have a project you'd like to discuss? Let's talk!
       </Typography>
-      <Grid container padding="0 5rem 5rem" spacing="2rem">
+      <Grid
+        container
+        padding="0 5rem 5rem"
+        spacing="2rem"
+        className="animate__animated animate__fadeInDown navbar"
+      >
         {contactLinks.map((item, index) => (
           <Grid item key={`contact-list-item-${index}`}>
             <ContactItem

@@ -8,12 +8,20 @@ const Projects = () => {
     <Box sx={projectsSectionWrapper} id="projects">
       <Grid container spacing="3rem" alignItems={"center"}>
         <Grid item sm={6}>
-          <Typography fontWeight={700} fontSize={80} lineHeight={1.2}>
+          <Typography
+            fontWeight={700}
+            fontSize={80}
+            lineHeight={1.2}
+            className="animate__animated animate__fadeInDown"
+          >
             Explore My Recent Work
           </Typography>
         </Grid>
         <Grid item sm={6}>
-          <Typography fontSize={20}>
+          <Typography
+            fontSize={20}
+            className="animate__animated animate__fadeInDown"
+          >
             I'm proficient in the following frontend technologies - HTML, CSS,
             Javascript, Typescript, React (hooks and functional components),
             Redux, Redux-Toolkit, React-Query, Storybook.js, Styled Components

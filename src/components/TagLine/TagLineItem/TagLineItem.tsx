@@ -16,6 +16,7 @@ const TagLineItem = ({
       spacing="2rem"
       justifyContent={"center"}
       id="about"
+      className="animate__animated animate__fadeInDown tagline"
     >
       {reverseContent ? (
         <>
