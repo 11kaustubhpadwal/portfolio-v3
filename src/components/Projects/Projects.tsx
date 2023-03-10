@@ -27,6 +27,7 @@ const Projects = () => {
               projectType={project.projectType}
               projectName={project.projectName}
               projectImage={project.projectImage}
+              projectLink={project.projectLink}
             />
           </Grid>
         ))}

@@ -15,6 +15,14 @@ export const cardBodyStyle = {
   color: "#1d1d1d",
 };
 
+export const cardWrapper = {
+  ":hover": {
+    transform: "scale(1.01)",
+    transition: ".3s",
+    opacity: ".8",
+  },
+};
+
 export const arrowButtonStyle = { width: "1.25rem", marginLeft: "1rem" };
 
 export const projectImageStyle = { width: "100%", borderRadius: "1rem" };

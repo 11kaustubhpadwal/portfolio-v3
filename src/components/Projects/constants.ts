@@ -9,17 +9,30 @@ export const projectsList = [
     projectType: "Web Application",
     projectName: "Expert Profile",
     projectImage: expertProfile,
+    projectLink: "https://member.eond.eu/login",
   },
-  { projectType: "Website", projectName: "Sark", projectImage: sark },
+  {
+    projectType: "Website",
+    projectName: "Sark",
+    projectImage: sark,
+    projectLink: "https://sark.netlify.app/",
+  },
   {
     projectType: "Website",
     projectName: "AI Writing Tool",
     projectImage: aiTool,
+    projectLink: "https://ai-writing-tool.netlify.app/",
   },
-  { projectType: "Website", projectName: "Crappo", projectImage: crappo },
+  {
+    projectType: "Website",
+    projectName: "Crappo",
+    projectImage: crappo,
+    projectLink: "https://crappo-platform.netlify.app/",
+  },
   {
     projectType: "Web Application",
     projectName: "WorkMate",
     projectImage: workmate,
+    projectLink: "https://workmate.surge.sh/",
   },
 ];

@@ -2,9 +2,30 @@ body {
   margin: 0;
   background-color: #1d1d1d;
   color: #fff;
-  scroll-behavior: smooth !important;
 }
 
 * {
   font-family: "Montserrat", sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scrollTowardsLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-75%);
+  }
+}
+
+@keyframes scrollTowardsRight {
+  from {
+    transform: translateX(-75%);
+  }
+  to {
+    transform: translateX(75%);
+  }
 }

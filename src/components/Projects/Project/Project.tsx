@@ -5,12 +5,18 @@ import {
   cardBodyStyle,
   arrowButtonStyle,
   projectImageStyle,
+  cardWrapper,
 } from "./styles";
 import { ProjectProps } from "./types";
 
-const Project = ({ projectType, projectName, projectImage }: ProjectProps) => {
+const Project = ({
+  projectType,
+  projectName,
+  projectImage,
+  projectLink,
+}: ProjectProps) => {
   return (
-    <>
+    <Box sx={cardWrapper}>
       <Box sx={cardTopStyle} />
       <Box sx={cardBodyStyle}>
         <Typography fontWeight={500}>{projectType}</Typography>
@@ -18,9 +24,11 @@ const Project = ({ projectType, projectName, projectImage }: ProjectProps) => {
           {projectName}
           <img src={arrowDark} style={arrowButtonStyle} alt="go" />
         </Typography>
-        <img src={projectImage} alt="project" style={projectImageStyle} />
+        <a href={projectLink} rel="noreferrer" target="_blank">
+          <img src={projectImage} alt="project" style={projectImageStyle} />
+        </a>
       </Box>
-    </>
+    </Box>
   );
 };
 
