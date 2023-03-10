@@ -16,20 +16,24 @@ const TagLineItem = ({
       spacing="2rem"
       justifyContent={"center"}
       id="about"
-      className="animate__animated animate__fadeInDown tagline"
+      className="animate__animated animate__fadeInDown"
     >
       {reverseContent ? (
         <>
           <Grid item>
             <a href={linkHref} style={tagLineLinkStyle}>
-              <Typography fontWeight={600} fontSize={35} sx={linkTextStyle}>
+              <Typography
+                fontWeight={600}
+                fontSize={"2.188rem"}
+                sx={linkTextStyle}
+              >
                 {linkText}
                 <img src={arrow} style={arrowStyle} alt="go" />
               </Typography>
             </a>
           </Grid>
           <Grid item>
-            <Typography fontWeight={700} fontSize={80}>
+            <Typography fontWeight={700} fontSize={"5rem"}>
               {taglineText}
             </Typography>
           </Grid>
@@ -37,13 +41,17 @@ const TagLineItem = ({
       ) : (
         <>
           <Grid item>
-            <Typography fontWeight={700} fontSize={80}>
+            <Typography fontWeight={700} fontSize={"5rem"}>
               {taglineText}
             </Typography>
           </Grid>
           <Grid item>
             <a href={linkHref} style={tagLineLinkStyle}>
-              <Typography fontWeight={600} fontSize={35} sx={linkTextStyle}>
+              <Typography
+                fontWeight={600}
+                fontSize={"2.188rem"}
+                sx={linkTextStyle}
+              >
                 {linkText}
                 <img src={arrow} style={arrowStyle} alt="go" />
               </Typography>

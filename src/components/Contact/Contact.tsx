@@ -7,10 +7,10 @@ const Contact = () => {
     <>
       <Typography
         fontWeight={700}
-        fontSize={80}
+        fontSize={"5rem"}
         padding="5rem"
         id="contact"
-        className="animate__animated animate__fadeInDown navbar"
+        className="animate__animated animate__fadeInDown"
       >
         Have a project you'd like to discuss? Let's talk!
       </Typography>
@@ -18,7 +18,7 @@ const Contact = () => {
         container
         padding="0 5rem 5rem"
         spacing="2rem"
-        className="animate__animated animate__fadeInDown navbar"
+        className="animate__animated animate__fadeInDown"
       >
         {contactLinks.map((item, index) => (
           <Grid item key={`contact-list-item-${index}`}>

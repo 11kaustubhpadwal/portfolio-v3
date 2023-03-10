@@ -4,13 +4,18 @@ import { InfoItemProps } from "./types";
 const InfoItem = ({ title, subtitle, date }: InfoItemProps) => {
   return (
     <>
-      <Typography fontWeight={500} fontSize={25} mb={1}>
+      <Typography fontWeight={500} fontSize={"1.563rem"} mb={1}>
         {title}
       </Typography>
-      <Typography fontWeight={400} fontSize={19}>
+      <Typography fontWeight={400} fontSize={"1.188rem"}>
         {subtitle}
       </Typography>
-      <Typography fontWeight={400} fontSize={17} sx={{ opacity: ".5" }} mb={4}>
+      <Typography
+        fontWeight={400}
+        fontSize={"1.063rem"}
+        sx={{ opacity: ".5" }}
+        mb={4}
+      >
         {date}
       </Typography>
     </>

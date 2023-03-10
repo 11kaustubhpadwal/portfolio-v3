@@ -20,7 +20,7 @@ const Project = ({
       <Box sx={cardTopStyle} />
       <Box sx={cardBodyStyle}>
         <Typography fontWeight={500}>{projectType}</Typography>
-        <Typography mb={2} fontWeight={600} fontSize={26}>
+        <Typography mb={2} fontWeight={600} fontSize={"1.625rem"}>
           {projectName}
           <img src={arrowDark} style={arrowButtonStyle} alt="go" />
         </Typography>

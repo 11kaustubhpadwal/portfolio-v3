@@ -13,7 +13,7 @@ const Services = () => {
         justifyContent="center"
       >
         <Grid item>
-          <Typography fontSize={28} fontWeight={600}>
+          <Typography fontSize={"1.75rem"} fontWeight={600}>
             WEBSITE
           </Typography>
         </Grid>
@@ -21,7 +21,7 @@ const Services = () => {
           <img src={sparkle} style={{ width: "3rem" }} alt="sparkle" />
         </Grid>
         <Grid item>
-          <Typography fontSize={28} fontWeight={600}>
+          <Typography fontSize={"1.75rem"} fontWeight={600}>
             WEB APPLICATION
           </Typography>
         </Grid>
@@ -29,7 +29,7 @@ const Services = () => {
           <img src={sparkle} style={{ width: "3rem" }} alt="sparkle" />
         </Grid>
         <Grid item>
-          <Typography fontSize={28} fontWeight={600}>
+          <Typography fontSize={"1.75rem"} fontWeight={600}>
             LANDING PAGE
           </Typography>
         </Grid>
@@ -37,7 +37,7 @@ const Services = () => {
           <img src={sparkle} style={{ width: "3rem" }} alt="sparkle" />
         </Grid>
         <Grid item>
-          <Typography fontSize={28} fontWeight={600}>
+          <Typography fontSize={"1.75rem"} fontWeight={600}>
             MOBILE APP
           </Typography>
         </Grid>

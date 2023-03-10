@@ -8,7 +8,7 @@ const Navbar = () => {
       spacing={"3rem"}
       alignItems="center"
       mb={16}
-      className="animate__animated animate__fadeInDown navbar"
+      className="animate__animated animate__fadeInDown"
     >
       <Grid item sm>
         <Typography fontWeight={600} fontSize={30}>

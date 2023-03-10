@@ -7,19 +7,19 @@ const Projects = () => {
   return (
     <Box sx={projectsSectionWrapper} id="projects">
       <Grid container spacing="3rem" alignItems={"center"}>
-        <Grid item sm={6}>
+        <Grid item sm={12} md={6}>
           <Typography
             fontWeight={700}
-            fontSize={80}
+            fontSize={"5rem"}
             lineHeight={1.2}
             className="animate__animated animate__fadeInDown"
           >
             Explore My Recent Work
           </Typography>
         </Grid>
-        <Grid item sm={6}>
+        <Grid item sm={12} md={6}>
           <Typography
-            fontSize={20}
+            fontSize={"1.25rem"}
             className="animate__animated animate__fadeInDown"
           >
             I'm proficient in the following frontend technologies - HTML, CSS,
@@ -30,7 +30,7 @@ const Projects = () => {
       </Grid>
       <Grid container spacing="4rem" mt={2}>
         {projectsList.map((project, index) => (
-          <Grid item sm={4} key={`projects-list-item-${index}`}>
+          <Grid item xs={12} md={4} key={`projects-list-item-${index}`}>
             <Project
               projectType={project.projectType}
               projectName={project.projectName}

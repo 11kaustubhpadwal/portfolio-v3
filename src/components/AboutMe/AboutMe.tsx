@@ -13,7 +13,7 @@ const AboutMe = () => {
       </Typography>
       <Typography
         mb={2}
-        fontSize={20}
+        fontSize={"1.25rem"}
         className="animate__animated animate__fadeInDown"
       >
         I'm a creative fullstack developer who has been working with react and
@@ -23,7 +23,7 @@ const AboutMe = () => {
       </Typography>
       <Typography
         mb={11}
-        fontSize={20}
+        fontSize={"1.25rem"}
         className="animate__animated animate__fadeInDown"
       >
         I love photography, video games and cricket! I'm also gonna launch my

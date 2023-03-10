@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
 import arrow from "../../assets/images/up-right-arrow.png";
 import InfoItem from "./InfoItem";
 import {
@@ -8,27 +8,38 @@ import {
 } from "./styles";
 
 const CV = () => {
+  const theme = useTheme();
+  const md = useMediaQuery(theme.breakpoints.down("md"));
+
   return (
     <>
       <Grid container padding="5rem" alignItems={"center"} id="cv">
-        <Grid item sm>
+        <Grid item md>
           <Typography
             fontWeight={700}
-            fontSize={80}
+            fontSize={"5rem"}
             lineHeight={1.2}
-            className="animate__animated animate__fadeInDown navbar"
+            className="animate__animated animate__fadeInDown"
           >
             Curriculum Vitae
           </Typography>
         </Grid>
-        <Grid item className="animate__animated animate__fadeInDown navbar">
+        <Grid
+          mt={md ? 4 : 0}
+          item
+          className="animate__animated animate__fadeInDown"
+        >
           <a
             href="https://www.linkedin.com/in/kaustubh-padwal-876495179/"
             target="_blank"
             rel="noreferrer"
             style={linkedInButtonAnchorTagStyle}
           >
-            <Typography fontWeight={600} fontSize={22} sx={linkedInButton}>
+            <Typography
+              fontWeight={600}
+              fontSize={"1.375rem"}
+              sx={linkedInButton}
+            >
               LinkedIn
               <img src={arrow} style={goToLinkedInStyle} alt="go" />
             </Typography>
@@ -38,10 +49,10 @@ const CV = () => {
       <Grid
         container
         padding="0 5rem 0"
-        className="animate__animated animate__fadeInDown navbar"
+        className="animate__animated animate__fadeInDown"
       >
-        <Grid item sm={6}>
-          <Typography fontWeight={700} fontSize={40} mb={6}>
+        <Grid item md={6}>
+          <Typography fontWeight={700} fontSize={"2.5rem"} mb={6}>
             Work Experience
           </Typography>
           <InfoItem
@@ -55,8 +66,8 @@ const CV = () => {
             date="March 2021 - August 2021"
           />
         </Grid>
-        <Grid item sm={6}>
-          <Typography fontWeight={700} fontSize={40} mb={6}>
+        <Grid item md={6} mt={md ? 6 : 0}>
+          <Typography fontWeight={700} fontSize={"2.5rem"} mb={6}>
             Education
           </Typography>
           <InfoItem
@@ -68,11 +79,11 @@ const CV = () => {
       </Grid>
       <Typography
         fontWeight={700}
-        fontSize={40}
+        fontSize={"2.5rem"}
         mb={6}
         mt={8}
         padding="0 5rem"
-        className="animate__animated animate__fadeInDown navbar"
+        className="animate__animated animate__fadeInDown"
       >
         Skills
       </Typography>
@@ -80,77 +91,77 @@ const CV = () => {
         container
         padding="0 5rem 5rem"
         spacing="5rem"
-        className="animate__animated animate__fadeInDown navbar"
+        className="animate__animated animate__fadeInDown"
       >
-        <Grid item>
-          <Typography fontWeight={500} fontSize={25} mb={1}>
+        <Grid item sm={12} md>
+          <Typography fontWeight={500} fontSize={"1.563rem"} mb={1}>
             Frontend
           </Typography>
           <ul>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 HTML
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 CSS
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 Javascript
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 Typescript
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 React
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 Redux, Redux-Toolkit
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 React-Query, Axios
               </Typography>
             </li>
           </ul>
         </Grid>
-        <Grid item>
-          <Typography fontWeight={500} fontSize={25} mb={1}>
+        <Grid item sm={12} md>
+          <Typography fontWeight={500} fontSize={"1.563rem"} mb={1}>
             Backend
           </Typography>
           <ul>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 Node.js
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 Express.js
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 MongoDB
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 Mongoose ODM
               </Typography>
             </li>
             <li>
-              <Typography fontWeight={400} fontSize={19}>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
                 REST APIs
               </Typography>
             </li>

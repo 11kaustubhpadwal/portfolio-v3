@@ -11,7 +11,7 @@ const ContactItem = ({
     <a href={itemLink} style={contactLinkAnchorTagStyle}>
       <Typography
         fontWeight={500}
-        fontSize={25}
+        fontSize={"1.563rem"}
         mb={1}
         sx={contactLinkItemStyle(primary)}
       >
