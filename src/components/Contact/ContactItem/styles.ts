@@ -13,7 +13,7 @@ export const contactLinkItemStyle = (primary: boolean) =>
       }
     : {
         border: ".2rem solid #fff",
-        padding: "1rem 2rem",
+        padding: ".8rem 2rem",
         borderRadius: "2rem",
         ":hover": {
           transform: "scale(1.05)",

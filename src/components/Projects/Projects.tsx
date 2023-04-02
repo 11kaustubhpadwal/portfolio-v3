@@ -1,6 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
-import { projectsList } from "./constants";
+
 import Project from "./Project/Project";
+import { projectsList } from "./constants";
 import { projectsSectionWrapper } from "./styles";
 
 const Projects = () => {
@@ -22,9 +23,10 @@ const Projects = () => {
             fontSize={"1.25rem"}
             className="animate__animated animate__fadeInDown"
           >
-            I'm proficient in the following frontend technologies - HTML, CSS,
-            Javascript, Typescript, React (hooks and functional components),
-            Redux, Redux-Toolkit, React-Query, Storybook.js, Styled Components
+            I've completed more than 7 fully responsive, retina-ready and well
+            optimised web based projects. I'm open to fully remote as well as
+            on-site projects based in India. The projects below showcase my most
+            recent work.
           </Typography>
         </Grid>
       </Grid>
