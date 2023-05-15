@@ -33,6 +33,6 @@ export const projectsList = [
     projectType: "Web Application",
     projectName: "WorkMate",
     projectImage: workmate,
-    projectLink: "https://workmate.surge.sh/",
+    projectLink: "https://work-mate.netlify.app/",
   },
 ];
