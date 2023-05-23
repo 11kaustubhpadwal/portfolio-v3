@@ -39,7 +39,7 @@ const AboutMe = () => {
           <InfoCard title={"7+"} subtitle={"Projects Completed"} />
         </Grid>
         <Grid item>
-          <InfoCard title={"5000+"} subtitle={"Lines of Code Written"} />
+          <InfoCard title={`10,000+`} subtitle={"Lines of Code Written"} />
         </Grid>
       </Grid>
     </>
