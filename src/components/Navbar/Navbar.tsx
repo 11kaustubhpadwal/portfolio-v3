@@ -12,7 +12,7 @@ const Navbar = () => {
     >
       <Grid item sm>
         <Typography fontWeight={600} fontSize={30}>
-          Kaustubh
+          Kaustubh Padwal
         </Typography>
       </Grid>
       <Grid item>
