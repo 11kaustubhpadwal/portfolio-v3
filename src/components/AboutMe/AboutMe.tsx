@@ -29,9 +29,9 @@ const AboutMe = () => {
         className="animate__animated animate__fadeInDown"
       >
         Proven ability to design and implement scalable, high-performance
-        applications that enhance user experience. Adeptat collaborating with
+        applications that enhance user experience. Adept at collaborating with
         global teams and adapting to diverse work environments, consistently
-        delivering impactful anduser-centric solutions.
+        delivering impactful and user-centric solutions.
       </Typography>
       <Typography
         mb={14}
@@ -39,7 +39,7 @@ const AboutMe = () => {
         className="animate__animated animate__fadeInDown"
       >
         Committed to staying current with industry trends and best practices to
-        drive innovation andexcellence in frontend development.
+        drive innovation and excellence in frontend development.
       </Typography>
       <Grid container justifyContent="space-evenly" spacing="3rem" mb={11}>
         <Grid item>
