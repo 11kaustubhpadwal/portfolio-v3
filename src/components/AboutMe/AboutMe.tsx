@@ -18,22 +18,32 @@ const AboutMe = () => {
         fontSize={"1.25rem"}
         className="animate__animated animate__fadeInDown"
       >
-        I'm a creative fullstack developer with more than 2 years of
-        international work experience. I've worked for a startup as well as a
-        software house based in Poland. I've been working in a diverse team of
-        people who are based in the UK, Europe and USA.
+        A creative Software Engineer with over 3 years of international
+        experience, specializing in frontend development.Expertise in creating
+        intuitive and responsive user interfaces using modern technologies such
+        as React and Redux.
+      </Typography>
+      <Typography
+        mb={2}
+        fontSize={"1.25rem"}
+        className="animate__animated animate__fadeInDown"
+      >
+        Proven ability to design and implement scalable, high-performance
+        applications that enhance user experience. Adeptat collaborating with
+        global teams and adapting to diverse work environments, consistently
+        delivering impactful anduser-centric solutions.
       </Typography>
       <Typography
         mb={14}
         fontSize={"1.25rem"}
         className="animate__animated animate__fadeInDown"
       >
-        I love photography, video games and cricket! I'm also gonna launch my
-        own startup soon! Wanna know more? Let's connect!
+        Committed to staying current with industry trends and best practices to
+        drive innovation andexcellence in frontend development.
       </Typography>
       <Grid container justifyContent="space-evenly" spacing="3rem" mb={11}>
         <Grid item>
-          <InfoCard title={"2+"} subtitle={"Years of Experience"} />
+          <InfoCard title={"3+"} subtitle={"Years of Experience"} />
         </Grid>
         <Grid item>
           <InfoCard title={"7+"} subtitle={"Projects Completed"} />
