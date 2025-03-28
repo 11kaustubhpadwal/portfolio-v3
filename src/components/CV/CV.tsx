@@ -2,8 +2,8 @@ import { Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
 import arrow from "../../assets/images/up-right-arrow.png";
 import InfoItem from "./InfoItem";
 import {
-  linkedInButton,
   goToLinkedInStyle,
+  linkedInButton,
   linkedInButtonAnchorTagStyle,
 } from "./styles";
 
@@ -56,9 +56,14 @@ const CV = () => {
             Work Experience
           </Typography>
           <InfoItem
+            title="DigiVaidya"
+            subtitle="Founder"
+            date="October 2024 - March 2025"
+          />
+          <InfoItem
             title="Software Mind Sp. Z.o.o"
             subtitle="Software Engineer I"
-            date="October 2021 - Present"
+            date="October 2021 - October 2024"
           />
           <InfoItem
             title="EonD Sp. Z.o.o"
@@ -133,6 +138,26 @@ const CV = () => {
                 React-Query, Axios
               </Typography>
             </li>
+            <li>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
+                styled-components
+              </Typography>
+            </li>
+            <li>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
+                Progressive web apps (PWAs)
+              </Typography>
+            </li>
+            <li>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
+                Framer
+              </Typography>
+            </li>
+            <li>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
+                Figma (UI/UX design)
+              </Typography>
+            </li>
           </ul>
         </Grid>
         <Grid item sm={12} md>
@@ -163,6 +188,16 @@ const CV = () => {
             <li>
               <Typography fontWeight={400} fontSize={"1.188rem"}>
                 REST APIs
+              </Typography>
+            </li>
+            <li>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
+                Websockets
+              </Typography>
+            </li>
+            <li>
+              <Typography fontWeight={400} fontSize={"1.188rem"}>
+                Webhooks
               </Typography>
             </li>
           </ul>

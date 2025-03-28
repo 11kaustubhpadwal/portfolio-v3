@@ -1,14 +1,13 @@
 import { Box } from "@mui/material";
 import "animate.css";
-
-import TagLine from "./components/TagLine";
-import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
-import Services from "./components/Services";
+import Contact from "./components/Contact";
 import CV from "./components/CV";
 import Divider from "./components/Divider";
-import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Services from "./components/Services";
+import TagLine from "./components/TagLine";
 
 function App() {
   return (

@@ -23,10 +23,10 @@ const Projects = () => {
             fontSize={"1.25rem"}
             className="animate__animated animate__fadeInDown"
           >
-            I've completed more than 7 fully responsive, retina-ready and well
+            I've completed more than 10 fully responsive, retina-ready and well
             optimised web based projects. I'm open to fully remote as well as
-            on-site projects based in India. The projects below showcase my most
-            recent work.
+            on-site projects based in Europe and India. The projects below
+            showcase my most recent work.
           </Typography>
         </Grid>
       </Grid>
